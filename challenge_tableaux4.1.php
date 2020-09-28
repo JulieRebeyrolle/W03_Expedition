@@ -1,25 +1,14 @@
 <?php
-$movies = [
-    "Les Aventuriers de l'arche perdue",
-    "Indiana Jones et le Temple maudit",
-    "Indiana Jones et la Dernière Croisade",
-    "Indiana Jones et le Royaume du crâne de cristal",
-    "Indiana Jones 5"
+$indianaJonesMovies= [
+    'Les aventuriers de l\'arche perdue' => 1981,
+    'Indiana Jones et la Dernière croisade' => 1989,
+    'Indiana Jones et le Temple maudit' => 1984
 ];
 
-// Si tu n'as pas besoin des clés du tableau
-foreach ($movies as $movie){
-    // Do something...
-    echo $movie;
-    // Affiche "Les Aventuriers de l'arche perdue"
-    // (au 1er tour, puis les autres valeurs aux tours suivants)
+asort($indianaJonesMovies);
+
+foreach ($indianaJonesMovies as $movie => $year){
+    echo $year;
+    echo ' - ';
+    echo $movie, "\n";
 }
-
-// Si tu as besoin des clés du tableau
-foreach ($movies as $key => $movie){
-    // Do something...
-    echo $key;      // Affiche 0 (au 1er tour)
-    echo $movie;    // Affiche "Les Aventuriers de l'arche perdue" (au 1er tour)
-}
-
-
