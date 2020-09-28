@@ -8,5 +8,4 @@
     echo $movieAlreadySeen."<br>";
     echo $movieReleaseYear."<br>";
     echo $movieImdbRating."<br>";
-
 ?>
