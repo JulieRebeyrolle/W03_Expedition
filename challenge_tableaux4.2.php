@@ -1,9 +1,4 @@
 <?php
-/*$weapons = [
-    'Indiana Jones' => ['whip', 'gun', 'saber'],
-    'Marion Ravenwood' => ['knife', 'shield'],
-    'Helen Seymour' => ['belt', 'dagger', 'gun', 'shield']
-];*/
 
 $indianaJonesMovies = [
     'Les aventuriers de l\'arche perdue' => ['Harrison Ford', 'Karen Allen', 'Paul Freeman'],
